@@ -4,7 +4,6 @@
   font-size: 6em;
 }
 body{
-	animation: fade 2s ease-out 0.1s alternate;
 	background-color: rgba(0,0,0,1);
 	color: white;
 	font-size: 19px;
