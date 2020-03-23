@@ -1,1 +1,89 @@
+#ajr {
+  text-align: center;
+  margin-top: -30px;
+  font-size: 6em;
+}
+body{
+	background-color: rgba(0,0,0,1);
+	color: white;
+	font-size: 19px;
+	text-shadow: 0px 1px 10px #FFcc00;
+}
+.header { 
+	grid-area: header;
+	text-align: center;
+}
+.menu { 
+	grid-area: menu;
+	text-align: center;
+}
+.main { 
+	grid-area: main;
+	text-align: center;
+}
+.footer { 
+	grid-area: footer; 
+	text-align: left;
+}
+.bruh { 
+	grid-area: idk;
+	text-align: center;
+}
 
+
+.grid-container {
+	display: grid;
+	grid-template-areas:
+    'header header idk'
+    'main main idk'
+    'footer footer footer';
+	height: 102vh;
+	width: 96vw;
+	grid-gap: 10px;
+	grid-auto-columns: 10% 50% 40%;
+	grid-auto-rows: 10% 80% 10%;
+	padding: 5px;
+}
+
+.grid-container > div {
+  padding: 20px;
+}
+.info {
+	font-size: 1rem;
+	margin-top: -1rem;
+}
+.linkslinks {
+	font-size: 2em;
+	margin-top: auto
+}
+a {
+	text-decoration: none;
+	color: white;
+	text-shadow: 0px 1px 10px #c41b1b;
+	font-size 200px;
+	
+}
+a:hover {
+	text-shadow: 0px 1px 10px white;
+}
+.responsive {
+	width: 100%;
+	max-width: 650px;
+	height: auto;
+
+}
+h2 {
+	font-size: 2rem;
+	margin-top: -1.5rem;
+}
+.top {
+	margin-top: -5px;
+	font-size: 3em;
+}
+h1 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.linksshit, #gamer{
+	margin-top: 15px;
+	text-align: left;
+}
